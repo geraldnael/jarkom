@@ -30,7 +30,7 @@ def home():
         'description': 'This project was created with my team...',
         'image_url': '',
         # Ini mungkin perlu disesuaikan dengan kebutuhan Anda.
-        'project_link': 'my_python_app.py'
+        'project_link': '/my_python_app.py'
     }
     return render_template('index.html', project_data=project_data)
 
