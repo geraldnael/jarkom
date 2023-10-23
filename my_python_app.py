@@ -32,7 +32,7 @@ def home():
         # Ini mungkin perlu disesuaikan dengan kebutuhan Anda.
         'project_link': '/Projek Jarkom/app.py'
     }
-    return render_template('index1.html', project_data=project_data)
+    return render_template('index.html', project_data=project_data)
 
 
 @app.route('/scan', methods=['POST'])
